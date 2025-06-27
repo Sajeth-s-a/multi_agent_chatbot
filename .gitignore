@@ -1,0 +1,28 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Environment variables
+.env
+*.env
+.flaskenv
+
+# Editor/OS specific files
+.DS_Store # macOS specific
+.vscode/ # VS Code settings, if you use it and want to ignore specific settings
+
+# Logs and temporary files
+*.log
+tmp/
+*.sqlite3 # If you use SQLite for development DB
+
+# IDE specific files
+.idea/ # PyCharm/IntelliJ IDEA
